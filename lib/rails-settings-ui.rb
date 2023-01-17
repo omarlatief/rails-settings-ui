@@ -18,7 +18,7 @@ module RailsSettingsUi
   self.settings_displayed_as_select_tag = []
 
   mattr_accessor :settings_class
-  self.settings_class = "Settings"
+  self.settings_class = "Setting"
 
   mattr_accessor :defaults_for_settings
   self.defaults_for_settings = {}
